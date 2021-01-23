@@ -19,6 +19,6 @@ document.getElementById('read-from-bookmarklet-button').addEventListener('click'
   }
 });
 
-browser.storage.sync.get(['token'], (result) => {
-  tokenInput.value = result.token || '';
+browser.storage.sync.get({token: ''}, (result) => {
+  tokenInput.value = result.token;
 });

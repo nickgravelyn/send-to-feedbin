@@ -17,6 +17,14 @@
       body.show-options .options {
         display: initial;
       }
+      #saver {
+        width: 0;
+        height: 0;
+        border: none;
+        position: absolute;
+        left: -100;
+        top: -100;
+      }
     </style>
   </head>
 
@@ -29,6 +37,7 @@
       <button type="button" id="options-button">Go to options</button>
     </div>
 
+    <iframe id="saver"></iframe>
     <script src="popup.js"></script>
   </body>
 </html>
