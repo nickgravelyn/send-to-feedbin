@@ -12,7 +12,7 @@ Maybe someday I'll put this in the extension store but for now you can just side
 3. Click on "Load unpacked" near the top and choose the repo directory.
 4. Once you have the Feedbin icon in your menu bar, click on it and it'll give you a button to configure the token.
 5. Follow those instructions to configure your token.
-6. Enjoy.
+6. Whenever you want to save a page, just click on the Feedbin button.
 
 
 ## Notes
