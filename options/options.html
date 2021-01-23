@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      body {
+        padding: 0 1em;
+        font-size: 14pt;
+        width: 600px;
+        margin: 0 auto;
+      }
+      img {
+        max-width: 100%;
+      }
+      form {
+        margin: 1em 0;
+      }
+      input[type="text"] {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Send to Feedbin</h2>
+
+    <p>
+      In order to send pages to Feedbin, we need your token. The simplest way to get this is from the “Send to Feedbin” bookmarklet.
+    </p>
+
+    <ol>
+      <li>Head to <a href="https://feedbin.com/settings/newsletters_pages">Feedbin's Sources page</a> and find the “Send to Feedbin” bookmarklet.</li>
+      <li>Right click on the bookmarklet and choose “Copy Link”.</li>
+      <li>Paste the link into the box below.</li>
+      <li>Click on the “Read from bookmarklet” button.</li>
+    </ol>
+
+    <div>
+      <img src="copy-link.png" alt="Screenshot of the Feedbin page showing the right click menu when right clicking on the Send to Feedbin bookmarklet">
+    </div>
+
+    <form id="options-form">
+      <div>
+        <label for="token">
+          Token<br>
+          <input type="text" id="token" name="token">
+        </label>
+      </div>
+
+      <div>
+        <button id="read-from-bookmarklet-button" type="button">Read from bookmarklet</button>
+      </div>
+
+      <div>
+        <button type="submit">Save</button>
+      </div>
+    </form>
+
+    <div id="status"></div>
+
+    <script src="options.js"></script>
+  </body>
+</html>

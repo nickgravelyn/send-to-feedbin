@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <style>
+      body {
+        width: 200px;
+      }
+      #text {
+        width: 100%;
+        text-align: center;
+      }
+      .options {
+        display: none;
+      }
+      body.show-options .options {
+        display: initial;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="text"></div>
+
+    <div class="options">
+      <h2>Uh oh</h2>
+      <p>Before you can use this extension you need to set your Feedbin token in the options.</p>
+      <button type="button" id="options-button">Go to options</button>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
