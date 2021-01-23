@@ -1,0 +1,22 @@
+{
+  "name": "send-to-feedbin",
+  "version": "1.1.0",
+  "description": "Send pages to Feedbin to read later.",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickgravelyn/send-to-feedbin.git"
+  },
+  "keywords": [],
+  "author": "Nick Gravelyn <hello@nickgravelyn.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickgravelyn/send-to-feedbin/issues"
+  },
+  "homepage": "https://github.com/nickgravelyn/send-to-feedbin#readme",
+  "dependencies": {
+    "fs-extra": "^9.1.0"
+  }
+}
