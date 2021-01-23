@@ -1,7 +1,9 @@
-chrome.storage.sync.get(['token'], (result) => {
+const browser = window.browser || window.chrome;
+
+browser.storage.sync.get(['token'], (result) => {
   const token = result.token;
   if (token) {
-    chrome.tabs.getSelected(null, tab => {
+    browser.tabs.getSelected(null, tab => {
       window.location =
         "https://feedbin.com/pages?url=" +
         encodeURIComponent(tab.url) +
@@ -18,9 +20,5 @@ chrome.storage.sync.get(['token'], (result) => {
 });
 
 document.getElementById('options-button').addEventListener('click', () => {
-  if (chrome.runtime.openOptionsPage) {
-    chrome.runtime.openOptionsPage();
-  } else {
-    window.open(chrome.runtime.getURL('options.html'));
-  }
+  browser.runtime.openOptionsPage();
 });
