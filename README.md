@@ -1,11 +1,6 @@
 # Send to Feedbin
 
-Send pages to Feedbin to read later from Edge (Chromium) and Firefox.
-
-
-## Installing like an end-user
-
-TODO: Get this extension into the various extension stores for each browser.
+Send pages to Feedbin to read later from Edge and Firefox.
 
 
 ## Installing like a developer
