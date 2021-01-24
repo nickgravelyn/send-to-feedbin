@@ -3,9 +3,12 @@
 Send pages to Feedbin to read later from Edge (Chromium) and Firefox.
 
 
-## Installing
+## Installing like an end-user
 
-Maybe someday I'll put this in the extension store but for now you can just sideload it like a developer:
+TODO: Get this extension into the various extension stores for each browser.
+
+
+## Installing like a developer
 
 1. Clone or download the repo and extract it somewhere permanent, like your Documents or something.
 2. Install into your browser:
